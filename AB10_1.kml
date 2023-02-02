@@ -5,7 +5,7 @@
 </Schema>
 <Folder><name>AB10_1</name>
   <Placemark>
-	<Style><LineStyle><color>ff0000ff</color><width>4</width></LineStyle><PolyStyle><fill>1</fill><outline>1</outline></PolyStyle></Style>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>1</fill><outline>1</outline></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#AB10_1">
 		<SimpleData name="sector">AB10 1</SimpleData>
 	</SchemaData></ExtendedData>
