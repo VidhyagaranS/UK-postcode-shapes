@@ -5,7 +5,7 @@
 </Schema>
 <Folder><name>LD</name>
   <Placemark>
-	<Style><LineStyle><color>ccffa500</color><width>1</width></LineStyle><PolyStyle><fill>1</fill><outline>1</outline><color>59ffd27f</color><colorMode>random</colorMode></PolyStyle></Style>
+	<Style><LineStyle><color>ccd22c79</color><width>1</width></LineStyle><PolyStyle><fill>1</fill><outline>1</outline><color>59f0b8d2</color><colorMode>random</colorMode></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#LD">
 		<SimpleData name="sector">LD1 5</SimpleData>
 	</SchemaData></ExtendedData>
