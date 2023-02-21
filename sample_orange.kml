@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Triangular Polygon</name>
+    <Style id="triangleStyle">
+      <LineStyle>
+        <color>7f00ffff</color> <!-- 50% transparent blue -->
+        <width>2</width>
+        <gx:labelVisibility>1</gx:labelVisibility>
+        <gx:labelBackgroundColor>ffffffff</gx:labelBackgroundColor>
+        <gx:labelScale>1.5</gx:labelScale>
+        <gx:displayMode>default</gx:displayMode>
+        <gx:iconVisibility>1</gx:iconVisibility>
+        <gx:snippet>Triangle with orange fill and dotted lines</gx:snippet>
+        <gx:balloonVisibility>1</gx:balloonVisibility>
+      </LineStyle>
+      <PolyStyle>
+        <color>50ffa500</color> <!-- 50% transparent orange -->
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Placemark>
+      <name>Triangle</name>
+      <styleUrl>#triangleStyle</styleUrl>
+      <Polygon>
+        <tessellate>1</tessellate>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -0.080585,52.713011,0
+              -1.027125,51.970541,0
+              1.006182,51.891280,0
+              -0.080585,52.713011,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
+
